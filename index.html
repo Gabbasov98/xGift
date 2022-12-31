@@ -1,0 +1,1067 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+    <div class="header__inner">
+        <a href="" class="header__logo logo">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="header__right">
+            <nav class="nav">
+                <a href="" class="nav__link">Магазин</a>
+                <a href="" class="nav__link">Вопросы и ответы</a>
+                <a href="" class="nav__link">Отзывы</a>
+                <a href="" class="nav__link">Контакты</a>
+            </nav>
+
+            <div class="header__buttons">
+                <div class="header__user header__btn">
+                    <button class="header__user-btn">
+                        <svg width="24" height="24" class="sprite sprite-black">
+                            <use xlink:href="img/sprite.svg#user"></use>
+                        </svg>
+                    </button>
+
+                    <div class="auth-modal m-dropdown">
+                        <div class="m-dropdown__triangle-wrap">
+                            <span class="m-dropdown__triangle"></span>
+                        </div>
+                        <div class="m-dropdown__inner">
+                            <div class="auth-modal__mode _active">
+                                <h3 class="auth-modal__title">
+                                    Авторизация
+                                </h3>
+                                <div class="auth-modal__desc">
+                                    Нет аккаунта?
+                                    <button class="auth-modal__toggle">Зарегистрироваться</button>
+                                </div>
+                                <form action="" class="auth-modal__form">
+                                <fieldset class="fg">
+                                    <svg width="14" height="14" class="fg__icon sprite">
+                                        <use xlink:href="img/sprite.svg#email"></use>
+                                    </svg>
+                                    <input type="email" placeholder="E-mail" autocomplete="off">
+                                </fieldset>
+                                    <fieldset class="fg fg-pass">
+                                        <input type="password" placeholder="Введите пароль" autocomplete="off">
+                                        <button type="button" class="fg-pass__btn"></button>
+                                    </fieldset>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label>Запомнить меня на этом компьютере</label>
+                                </div>
+                                <button class="m-btn m-btn-primary">
+                                    Войти
+                                </button>
+                            </form>
+                            </div>
+                            <div class="auth-modal__mode">
+                                <h3 class="auth-modal__title">
+                                    Регистрация
+                                </h3>
+                                <div class="auth-modal__desc">
+                                    Есть аккаунт?
+                                    <button class="auth-modal__toggle">Войти</button>
+                                </div>
+                                <form action="" class="auth-modal__form">
+                                    <fieldset class="fg">
+                                        <input type="text" placeholder="Имя" autocomplete="off">
+                                    </fieldset>
+                                    <fieldset class="fg">
+                                        <input type="text" placeholder="Фамилия" autocomplete="off">
+                                    </fieldset>
+                                    <fieldset class="fg">
+                                        <input type="email" placeholder="E-mail" autocomplete="off">
+                                    </fieldset>
+                                    <fieldset class="fg fg-pass">
+                                        <input type="password" placeholder="Введите пароль" autocomplete="off">
+                                        <button type="button" class="fg-pass__btn"></button>
+                                    </fieldset>
+                                    <fieldset class="fg fg-pass">
+                                        <input type="password" placeholder="Подтверждение пароля" autocomplete="off">
+                                        <button type="button" class="fg-pass__btn"></button>
+                                    </fieldset>
+                                    <fieldset class="fg">
+                                        <input type="text" placeholder="Тут будет капча">
+                                    </fieldset>
+                                    <button class="m-btn m-btn-primary">
+                                        Войти
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__cart header__btn">
+                    <button class="header__cart-btn">
+                        <svg width="24" height="24" class="sprite sprite-black">
+                            <use xlink:href="img/sprite.svg#cart"></use>
+                        </svg>
+                        <span class="header__cart-count">12</span>
+                    </button>
+
+                    <div class="cart-modal m-dropdown">
+                        <div class="m-dropdown__triangle-wrap">
+                            <span class="m-dropdown__triangle"></span>
+                        </div>
+                        <div class="m-dropdown__inner">
+                            <div class="cart-modal__items">
+                                <div class="cart-card">
+    <div class="cart-card__icon">
+        <img src="img/service.svg" alt="">
+    </div>
+
+    <div class="cart-card__info">
+        <h3 class="cart-card__title body-text">
+            <a href="">Подарочная карта iTunes на 500 рублей</a>
+        </h3>
+        <div class="cart-card__price body-text">
+            799 ₽
+        </div>
+    </div>
+
+    <div class="cart-card__action">
+        <span class="cart-card__count body-text">1</span>
+        <button class="cart-card__remove">
+            <svg width="20" height="20" class="sprite sprite-black">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+                                <div class="cart-card">
+    <div class="cart-card__icon">
+        <img src="img/service2.svg" alt="">
+    </div>
+
+    <div class="cart-card__info">
+        <h3 class="cart-card__title body-text">
+            <a href="">XBOX Game Pass Ultimate на 3 месяца</a>
+        </h3>
+        <div class="cart-card__price body-text">
+            2 090 ₽
+        </div>
+    </div>
+
+    <div class="cart-card__action">
+        <span class="cart-card__count body-text">1</span>
+        <button class="cart-card__remove">
+            <svg width="20" height="20" class="sprite sprite-black">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+                                <div class="cart-card">
+    <div class="cart-card__icon">
+        <img src="img/service3.svg" alt="">
+    </div>
+
+    <div class="cart-card__info">
+        <h3 class="cart-card__title body-text">
+            <a href="">Игровая валюта Fortnite на 5000 V-Bucks</a>
+        </h3>
+        <div class="cart-card__price body-text">
+            3 469 ₽
+        </div>
+    </div>
+
+    <div class="cart-card__action">
+        <span class="cart-card__count body-text">1</span>
+        <button class="cart-card__remove">
+            <svg width="20" height="20" class="sprite sprite-black">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+                                <div class="cart-card">
+    <div class="cart-card__icon">
+        <img src="img/service4.svg" alt="">
+    </div>
+
+    <div class="cart-card__info">
+        <h3 class="cart-card__title body-text">
+            <a href="">Microsoft Office 365 Персональный</a>
+        </h3>
+        <div class="cart-card__price body-text">
+            3 790 ₽
+        </div>
+    </div>
+
+    <div class="cart-card__action">
+        <span class="cart-card__count body-text">1</span>
+        <button class="cart-card__remove">
+            <svg width="20" height="20" class="sprite sprite-black">
+                <use xlink:href="img/sprite.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+</div>
+
+                            </div>
+                            <div class="cart-modal__total">
+                                Cумма: <b>10 148 ₽</b>
+                            </div>
+                            <button class="cart-modal__btn m-btn m-btn-primary">
+                                Оформить заказ
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__support">
+                <span class="header__support-title">
+                    Техническая <br>
+                    поддержка:
+                </span>
+                <a href="" class="header__support-link">
+                    <svg width="26" height="26" class="sprite sprite-black">
+                        <use xlink:href="img/sprite.svg#vk"></use>
+                    </svg>
+                </a>
+                <a href="" class="header__support-link">
+                    <svg width="26" height="26" class="sprite sprite-black">
+                        <use xlink:href="img/sprite.svg#telegram"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <button class="burger"></button>
+        </div>
+
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="main">
+                <div class="container">
+                    <div class="main__inner">
+                        <div class="swiper-button swiper-button-prev">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.0158 14C9.93905 14.0004 9.86295 13.9857 9.79188 13.9567C9.72081 13.9277 9.65616 13.8849 9.60166 13.8308L4.83582 9.06501C4.5642 8.79407 4.3487 8.47222 4.20167 8.11787C4.05463 7.76352 3.97894 7.38365 3.97894 7.00001C3.97894 6.61636 4.05463 6.23649 4.20167 5.88214C4.3487 5.5278 4.5642 5.20594 4.83582 4.93501L9.60166 0.169173C9.65604 0.114784 9.72062 0.0716401 9.79168 0.0422049C9.86274 0.0127697 9.93891 -0.00238037 10.0158 -0.00238037C10.0927 -0.00238037 10.1689 0.0127697 10.24 0.0422049C10.311 0.0716401 10.3756 0.114784 10.43 0.169173C10.4844 0.223562 10.5275 0.288132 10.557 0.359194C10.5864 0.430257 10.6015 0.506422 10.6015 0.58334C10.6015 0.660258 10.5864 0.736422 10.557 0.807485C10.5275 0.878548 10.4844 0.943117 10.43 0.997506L5.66416 5.76334C5.33644 6.09146 5.15236 6.53625 5.15236 7.00001C5.15236 7.46376 5.33644 7.90855 5.66416 8.23667L10.43 13.0025C10.4847 13.0567 10.5281 13.1213 10.5577 13.1923C10.5873 13.2634 10.6025 13.3397 10.6025 13.4167C10.6025 13.4937 10.5873 13.5699 10.5577 13.641C10.5281 13.7121 10.4847 13.7766 10.43 13.8308C10.3755 13.8849 10.3108 13.9277 10.2398 13.9567C10.1687 13.9857 10.0926 14.0004 10.0158 14Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+    <div class="main__content">
+        <div class="main__badge main__translate">КОД АКТИВАЦИИ</div>
+        <img src="img/logo-fortnite.svg" alt="" class="main__logo main__translate">
+        <div class="main__subtitle main__translate">
+            5000 V-Bucks
+        </div>
+        <div class="main__nav main__translate">
+            <div class="main__price">
+                <span class="main__price-old">990 ₽</span>
+                <span class="main__price-new">990 ₽</span>
+            </div>
+            <button class="main__btn m-btn m-btn-primary">
+                <svg width="20" height="20" class="sprite">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                </svg>
+                <span>Купить</span>
+            </button>
+        </div>
+    </div>
+    <div class="main__img">
+        <img src="img/main.webp" alt="">
+    </div>
+</div>
+
+                                <div class="swiper-slide">
+    <div class="main__content">
+        <div class="main__badge main__translate">КОД АКТИВАЦИИ</div>
+        <img src="img/logo-fortnite.svg" alt="" class="main__logo main__translate">
+        <div class="main__subtitle main__translate">
+            5000 V-Bucks 22
+        </div>
+        <div class="main__nav main__translate">
+            <div class="main__price">
+                <span class="main__price-old">990 ₽</span>
+                <span class="main__price-new">990 ₽</span>
+            </div>
+            <button class="main__btn m-btn m-btn-primary">
+                <svg width="20" height="20" class="sprite">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                </svg>
+                <span>Купить</span>
+            </button>
+        </div>
+    </div>
+    <div class="main__img">
+        <img src="img/main.webp" alt="">
+    </div>
+</div>
+
+                                <div class="swiper-slide">
+    <div class="main__content">
+        <div class="main__badge main__translate">КОД АКТИВАЦИИ</div>
+        <img src="img/logo-fortnite.svg" alt="" class="main__logo main__translate">
+        <div class="main__subtitle main__translate">
+            5000 V-Bucks 33
+        </div>
+        <div class="main__nav main__translate">
+            <div class="main__price">
+                <span class="main__price-old">990 ₽</span>
+                <span class="main__price-new">990 ₽</span>
+            </div>
+            <button class="main__btn m-btn m-btn-primary">
+                <svg width="20" height="20" class="sprite">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                </svg>
+                <span>Купить</span>
+            </button>
+        </div>
+    </div>
+    <div class="main__img">
+        <img src="img/main.webp" alt="">
+    </div>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-button swiper-button-next">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.98412 14C4.06089 14.0004 4.13699 13.9857 4.20806 13.9567C4.27913 13.9277 4.34378 13.8849 4.39828 13.8308L9.16412 9.06501C9.43573 8.79407 9.65123 8.47222 9.79827 8.11787C9.94531 7.76352 10.021 7.38365 10.021 7.00001C10.021 6.61636 9.94531 6.23649 9.79827 5.88214C9.65123 5.5278 9.43573 5.20594 9.16412 4.93501L4.39828 0.169173C4.34389 0.114784 4.27932 0.0716401 4.20826 0.0422049C4.1372 0.0127697 4.06103 -0.00238037 3.98412 -0.00238037C3.9072 -0.00238037 3.83103 0.0127697 3.75997 0.0422049C3.68891 0.0716401 3.62434 0.114784 3.56995 0.169173C3.51556 0.223562 3.47242 0.288132 3.44298 0.359194C3.41355 0.430257 3.3984 0.506422 3.3984 0.58334C3.3984 0.660258 3.41355 0.736422 3.44298 0.807485C3.47242 0.878548 3.51556 0.943117 3.56995 0.997506L8.33578 5.76334C8.6635 6.09146 8.84758 6.53625 8.84758 7.00001C8.84758 7.46376 8.6635 7.90855 8.33578 8.23667L3.56995 13.0025C3.51528 13.0567 3.47188 13.1213 3.44226 13.1923C3.41265 13.2634 3.3974 13.3397 3.3974 13.4167C3.3974 13.4937 3.41265 13.5699 3.44226 13.641C3.47188 13.7121 3.51528 13.7766 3.56995 13.8308C3.62446 13.8849 3.6891 13.9277 3.76017 13.9567C3.83124 13.9857 3.90735 14.0004 3.98412 14Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog">
+                <div class="container">
+                    <div class="filter">
+                        <div class="brand-filter">
+                            <div class="brand-filter__title body-text">
+                                Бренд
+                            </div>
+                            <div class="brand-filter__items">
+                                <div class="brand-filter__item body-text">
+    <input checked type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand"></use>
+        </svg>
+        <span>Apple</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand2"></use>
+        </svg>
+        <span>Google Play</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand3"></use>
+        </svg>
+        <span>Xbox</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand4"></use>
+        </svg>
+        <span>PlayStation</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.621956 10.2651C1.59525 13.5104 4.60546 15.8769 8.16756 15.8769C12.5178 15.8769 16.0445 12.3502 16.0445 7.99997C16.0445 3.64969 12.5178 0.123047 8.16756 0.123047C3.99328 0.123047 0.577402 3.37055 0.307617 7.47665C0.81814 8.33252 1.01629 8.862 0.621463 10.2651H0.621956Z" fill="#444061"/>
+            <path class="path-transparent" d="M7.76167 6.02707L7.76241 6.06596L5.83503 8.86597C5.5229 8.85169 5.2098 8.90658 4.91244 9.02892C4.783 9.08152 4.65942 9.14752 4.5437 9.22584L0.311089 7.48135C0.311089 7.48135 0.21312 9.09267 0.621243 10.2934L3.61349 11.5281C3.76118 12.1996 4.22395 12.7884 4.90383 13.0715C5.43871 13.2938 6.03993 13.2946 6.57544 13.0739C7.11096 12.8532 7.53699 12.429 7.75995 11.8944C7.8789 11.6096 7.93628 11.303 7.92832 10.9945L10.6835 9.024L10.7512 9.02523C12.4017 9.02523 13.7432 7.67975 13.7432 6.02707C13.7432 4.3744 12.4041 3.03384 10.7512 3.0304C9.10149 3.0304 7.75921 4.3744 7.75921 6.02707H7.76167ZM7.2989 11.7009C6.941 12.5625 5.95343 12.9679 5.09509 12.6102C4.71419 12.4501 4.40546 12.1556 4.22764 11.7826L5.20167 12.1863C5.35214 12.249 5.51348 12.2813 5.67646 12.2816C5.83944 12.2819 6.00088 12.25 6.15155 12.1878C6.30222 12.1257 6.43916 12.0345 6.55455 11.9194C6.66995 11.8043 6.76153 11.6675 6.82407 11.517C6.95072 11.2129 6.95147 10.871 6.82616 10.5663C6.70085 10.2617 6.45973 10.0192 6.15577 9.89218L5.14654 9.47495C5.53497 9.32726 5.97657 9.32233 6.38961 9.4939C6.80807 9.66695 7.12807 9.99286 7.2994 10.4096C7.47072 10.8263 7.46974 11.2859 7.29694 11.7009M10.7539 8.02461C10.2251 8.02318 9.71831 7.8122 9.34468 7.43788C8.97106 7.06357 8.76102 6.55644 8.76057 6.02756C8.76115 5.49878 8.97125 4.99177 9.34486 4.61756C9.71847 4.24336 10.2251 4.03244 10.7539 4.03101C11.2828 4.03231 11.7896 4.24317 12.1633 4.61739C12.537 4.99161 12.7472 5.49869 12.7478 6.02756C12.7473 6.55652 12.5372 7.06373 12.1635 7.43806C11.7897 7.81239 11.2829 8.02331 10.7539 8.02461M9.26026 6.02437C9.25993 5.627 9.41739 5.24576 9.69802 4.96443C9.97866 4.6831 10.3595 4.52471 10.7569 4.52406C11.5827 4.52406 12.2545 5.19606 12.2545 6.02437C12.2547 6.42182 12.097 6.80308 11.8162 7.08433C11.5354 7.36558 11.1543 7.52379 10.7569 7.52418C10.3595 7.52359 9.97871 7.36529 9.69804 7.08407C9.41736 6.80284 9.25982 6.42169 9.26001 6.02437H9.26026Z" fill="white"/>
+        </svg>
+        <span>Steam</span>
+    </label>
+</div>
+
+                            </div>
+
+                            <button class="brand-filter__btn m-btn m-btn-primary">
+                                <span>Все бренды</span>
+                                <svg width="16" height="16" class="sprite">
+                                    <use xlink:href="img/sprite.svg#selectArrow"></use>
+                                </svg>
+                            </button>
+                            <button class="brand-filter__btn2 m-btn m-btn-primary-outline">
+                                <span>Бренд</span>
+                                <svg width="16" height="16" class="sprite">
+                                    <use xlink:href="img/sprite.svg#selectArrow"></use>
+                                </svg>
+                            </button>
+                            <div class="all-brands m-dropdown">
+                                <div class="all-brands__bg"></div>
+                                <div class="m-dropdown__triangle-wrap">
+                                    <span class="m-dropdown__triangle"></span>
+                                </div>
+                                <div class="m-dropdown__inner">
+                                    <button class="all-brands__close"></button>
+                                    <p class="all-brands__title">Бренд</p>
+                                    <div class="all-brands__items">
+                                        <div class="brand-filter__item body-text">
+    <input checked type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand"></use>
+        </svg>
+        <span>Apple</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand2"></use>
+        </svg>
+        <span>Google Play</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand3"></use>
+        </svg>
+        <span>Xbox</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand4"></use>
+        </svg>
+        <span>PlayStation</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.621956 10.2651C1.59525 13.5104 4.60546 15.8769 8.16756 15.8769C12.5178 15.8769 16.0445 12.3502 16.0445 7.99997C16.0445 3.64969 12.5178 0.123047 8.16756 0.123047C3.99328 0.123047 0.577402 3.37055 0.307617 7.47665C0.81814 8.33252 1.01629 8.862 0.621463 10.2651H0.621956Z" fill="#444061"/>
+            <path class="path-transparent" d="M7.76167 6.02707L7.76241 6.06596L5.83503 8.86597C5.5229 8.85169 5.2098 8.90658 4.91244 9.02892C4.783 9.08152 4.65942 9.14752 4.5437 9.22584L0.311089 7.48135C0.311089 7.48135 0.21312 9.09267 0.621243 10.2934L3.61349 11.5281C3.76118 12.1996 4.22395 12.7884 4.90383 13.0715C5.43871 13.2938 6.03993 13.2946 6.57544 13.0739C7.11096 12.8532 7.53699 12.429 7.75995 11.8944C7.8789 11.6096 7.93628 11.303 7.92832 10.9945L10.6835 9.024L10.7512 9.02523C12.4017 9.02523 13.7432 7.67975 13.7432 6.02707C13.7432 4.3744 12.4041 3.03384 10.7512 3.0304C9.10149 3.0304 7.75921 4.3744 7.75921 6.02707H7.76167ZM7.2989 11.7009C6.941 12.5625 5.95343 12.9679 5.09509 12.6102C4.71419 12.4501 4.40546 12.1556 4.22764 11.7826L5.20167 12.1863C5.35214 12.249 5.51348 12.2813 5.67646 12.2816C5.83944 12.2819 6.00088 12.25 6.15155 12.1878C6.30222 12.1257 6.43916 12.0345 6.55455 11.9194C6.66995 11.8043 6.76153 11.6675 6.82407 11.517C6.95072 11.2129 6.95147 10.871 6.82616 10.5663C6.70085 10.2617 6.45973 10.0192 6.15577 9.89218L5.14654 9.47495C5.53497 9.32726 5.97657 9.32233 6.38961 9.4939C6.80807 9.66695 7.12807 9.99286 7.2994 10.4096C7.47072 10.8263 7.46974 11.2859 7.29694 11.7009M10.7539 8.02461C10.2251 8.02318 9.71831 7.8122 9.34468 7.43788C8.97106 7.06357 8.76102 6.55644 8.76057 6.02756C8.76115 5.49878 8.97125 4.99177 9.34486 4.61756C9.71847 4.24336 10.2251 4.03244 10.7539 4.03101C11.2828 4.03231 11.7896 4.24317 12.1633 4.61739C12.537 4.99161 12.7472 5.49869 12.7478 6.02756C12.7473 6.55652 12.5372 7.06373 12.1635 7.43806C11.7897 7.81239 11.2829 8.02331 10.7539 8.02461M9.26026 6.02437C9.25993 5.627 9.41739 5.24576 9.69802 4.96443C9.97866 4.6831 10.3595 4.52471 10.7569 4.52406C11.5827 4.52406 12.2545 5.19606 12.2545 6.02437C12.2547 6.42182 12.097 6.80308 11.8162 7.08433C11.5354 7.36558 11.1543 7.52379 10.7569 7.52418C10.3595 7.52359 9.97871 7.36529 9.69804 7.08407C9.41736 6.80284 9.25982 6.42169 9.26001 6.02437H9.26026Z" fill="white"/>
+        </svg>
+        <span>Steam</span>
+    </label>
+</div>
+
+                                        <div class="brand-filter__item body-text">
+    <input checked type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand"></use>
+        </svg>
+        <span>Apple</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand2"></use>
+        </svg>
+        <span>Google Play</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand3"></use>
+        </svg>
+        <span>Xbox</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg class="sprite sprite-black">
+            <use xlink:href="img/sprite.svg#brand4"></use>
+        </svg>
+        <span>PlayStation</span>
+    </label>
+</div>
+<div class="brand-filter__item body-text">
+    <input type="checkbox">
+    <label>
+        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.621956 10.2651C1.59525 13.5104 4.60546 15.8769 8.16756 15.8769C12.5178 15.8769 16.0445 12.3502 16.0445 7.99997C16.0445 3.64969 12.5178 0.123047 8.16756 0.123047C3.99328 0.123047 0.577402 3.37055 0.307617 7.47665C0.81814 8.33252 1.01629 8.862 0.621463 10.2651H0.621956Z" fill="#444061"/>
+            <path class="path-transparent" d="M7.76167 6.02707L7.76241 6.06596L5.83503 8.86597C5.5229 8.85169 5.2098 8.90658 4.91244 9.02892C4.783 9.08152 4.65942 9.14752 4.5437 9.22584L0.311089 7.48135C0.311089 7.48135 0.21312 9.09267 0.621243 10.2934L3.61349 11.5281C3.76118 12.1996 4.22395 12.7884 4.90383 13.0715C5.43871 13.2938 6.03993 13.2946 6.57544 13.0739C7.11096 12.8532 7.53699 12.429 7.75995 11.8944C7.8789 11.6096 7.93628 11.303 7.92832 10.9945L10.6835 9.024L10.7512 9.02523C12.4017 9.02523 13.7432 7.67975 13.7432 6.02707C13.7432 4.3744 12.4041 3.03384 10.7512 3.0304C9.10149 3.0304 7.75921 4.3744 7.75921 6.02707H7.76167ZM7.2989 11.7009C6.941 12.5625 5.95343 12.9679 5.09509 12.6102C4.71419 12.4501 4.40546 12.1556 4.22764 11.7826L5.20167 12.1863C5.35214 12.249 5.51348 12.2813 5.67646 12.2816C5.83944 12.2819 6.00088 12.25 6.15155 12.1878C6.30222 12.1257 6.43916 12.0345 6.55455 11.9194C6.66995 11.8043 6.76153 11.6675 6.82407 11.517C6.95072 11.2129 6.95147 10.871 6.82616 10.5663C6.70085 10.2617 6.45973 10.0192 6.15577 9.89218L5.14654 9.47495C5.53497 9.32726 5.97657 9.32233 6.38961 9.4939C6.80807 9.66695 7.12807 9.99286 7.2994 10.4096C7.47072 10.8263 7.46974 11.2859 7.29694 11.7009M10.7539 8.02461C10.2251 8.02318 9.71831 7.8122 9.34468 7.43788C8.97106 7.06357 8.76102 6.55644 8.76057 6.02756C8.76115 5.49878 8.97125 4.99177 9.34486 4.61756C9.71847 4.24336 10.2251 4.03244 10.7539 4.03101C11.2828 4.03231 11.7896 4.24317 12.1633 4.61739C12.537 4.99161 12.7472 5.49869 12.7478 6.02756C12.7473 6.55652 12.5372 7.06373 12.1635 7.43806C11.7897 7.81239 11.2829 8.02331 10.7539 8.02461M9.26026 6.02437C9.25993 5.627 9.41739 5.24576 9.69802 4.96443C9.97866 4.6831 10.3595 4.52471 10.7569 4.52406C11.5827 4.52406 12.2545 5.19606 12.2545 6.02437C12.2547 6.42182 12.097 6.80308 11.8162 7.08433C11.5354 7.36558 11.1543 7.52379 10.7569 7.52418C10.3595 7.52359 9.97871 7.36529 9.69804 7.08407C9.41736 6.80284 9.25982 6.42169 9.26001 6.02437H9.26026Z" fill="white"/>
+        </svg>
+        <span>Steam</span>
+    </label>
+</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="props-filter__toggle m-btn m-btn-primary-outline">
+                            <span>Фильтр</span>
+                            <span class="props-filter__toggle-num">2</span>
+                            <svg width="16" height="16" class="sprite">
+                                <use xlink:href="img/sprite.svg#selectArrow"></use>
+                            </svg>
+                        </button>
+                        <div class="props-filter__bg"></div>
+                        <div class="props-filter">
+                            <div class="props-filter__close"></div>
+                            <div class="props-filter__subtitle">
+                                Фильтр
+                            </div>
+                            <div class="props-filter__wrap">
+                                <div class="props-filter__group props-filter__range">
+                                    <div class="props-filter__title">Цена, руб</div>
+                                    <div class="range-slider" data-max="1000" data-min="170"></div>
+                                </div>
+                                <div class="props-filter__group props-filter__range">
+                                    <div class="props-filter__title">Номинал</div>
+                                    <div class="range-slider" data-max="100" data-min="10"></div>
+                                </div>
+                                <div class="props-filter__group">
+                                    <div class="props-filter__title">Регион</div>
+                                    <div class="country-select">
+                                        <div class="country-select__toggle">
+                                            <img class="country-select__toggle-flag" src="img/flag.svg" alt="">
+                                            <span class="country-select__toggle-title">Россия</span>
+                                            <svg width="16" height="16" class="sprite sprite-black">
+                                                <use xlink:href="img/sprite.svg#selectArrow"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="country-select__dropdown">
+                                            <div class="country-select__items">
+                                                <div class="country-select__item _selected">
+                                                    <img class="country-select__toggle-flag" src="img/flag.svg" alt="">
+                                                    <span class="country-select__toggle-title">Россия</span>
+                                                </div>
+                                                <div class="country-select__item">
+                                                    <img class="country-select__toggle-flag" src="img/flag2.svg" alt="">
+                                                    <span class="country-select__toggle-title">США</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="props-filter__nav">
+                                <button class="props-filter__apply m-btn m-btn-primary-outline">
+                                    Применить фильтр
+                                </button>
+                                <button class="props-filter__reset m-btn">
+                                    <svg width="20" height="20" class="sprite sprite-black">
+                                        <use xlink:href="img/sprite.svg#close"></use>
+                                    </svg>
+                                    <span>Сбросить все фильтры</span>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog__grid">
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Apple и iTunes
+                </div>
+                <p class="product-card__desc">
+                    500 ₽
+                </p>
+            </div>
+
+            
+            <div class="product-card__text">
+                Игры, приложения, музыка, фильмы, iCloud
+            </div>
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #434DFE;">
+            ПОДАРОЧНАЯ КАРТА
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подарочная карта iTunes на 500 рублей
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price1">
+            990 ₽
+        </div>
+        
+        <div class="product-card__price2">
+            990 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Apple и iTunes
+                </div>
+                <p class="product-card__desc">
+                    2000 ₽
+                </p>
+            </div>
+
+            
+            <div class="product-card__text">
+                Игры, приложения, музыка, фильмы, iCloud
+            </div>
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #434DFE;">
+            ПОДАРОЧНАЯ КАРТА
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подарочная карта iTunes на 2000 рублей
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price1">
+            2900 ₽
+        </div>
+        
+        <div class="product-card__price2">
+            2490 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card2.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon2.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    XBOX
+                </div>
+                <p class="product-card__desc">
+                    3 месяца
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #10B34B;">
+            Game Pass Ultimate
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подписка XBOX Game Pass Ultimate на 3 месяца
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price2">
+            2 090 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card3.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon3.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Fortnite
+                </div>
+                <p class="product-card__desc">
+                    5000 V-Bucks
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #C61FD0;">
+            КОД АКТИВАЦИИ
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Игровая валюта Fortnite на 5000 V-Bucks
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price2">
+            3 469 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card2.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon2.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    XBOX
+                </div>
+                <p class="product-card__desc">
+                    3 месяца
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #10B34B;">
+            Game Pass Ultimate
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подписка XBOX Game Pass Ultimate на 3 месяца
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price2">
+            2 090 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Apple и iTunes
+                </div>
+                <p class="product-card__desc">
+                    2000 ₽
+                </p>
+            </div>
+
+            
+            <div class="product-card__text">
+                Игры, приложения, музыка, фильмы, iCloud
+            </div>
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #434DFE;">
+            ПОДАРОЧНАЯ КАРТА
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подарочная карта iTunes на 2000 рублей
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price1">
+            2900 ₽
+        </div>
+        
+        <div class="product-card__price2">
+            2490 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card2.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon2.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    XBOX
+                </div>
+                <p class="product-card__desc">
+                    3 месяца
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #10B34B;">
+            Game Pass Ultimate
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подписка XBOX Game Pass Ultimate на 3 месяца
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price2">
+            2 090 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Apple и iTunes
+                </div>
+                <p class="product-card__desc">
+                    2000 ₽
+                </p>
+            </div>
+
+            
+            <div class="product-card__text">
+                Игры, приложения, музыка, фильмы, iCloud
+            </div>
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #434DFE;">
+            ПОДАРОЧНАЯ КАРТА
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Подарочная карта iTunes на 2000 рублей
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price1">
+            2900 ₽
+        </div>
+        
+        <div class="product-card__price2">
+            2490 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                        <div class="product-card _animate">
+    <div class="product-card__top">
+        <img src="img/card3.svg" alt="" class="product-card__bg">
+
+
+        <div class="product-card__content">
+            <div class="product-card__icon">
+                <img src="img/service-icon3.svg" alt="">
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__name body-text">
+                    Fortnite
+                </div>
+                <p class="product-card__desc">
+                    5000 V-Bucks
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="product-card__badge" style="background: #C61FD0;">
+            КОД АКТИВАЦИИ
+        </div>
+    </div>
+
+    <a href="" class="product-card__title">
+        Игровая валюта Fortnite на 5000 V-Bucks
+    </a>
+    <div class="product-card__prices">
+        
+        <div class="product-card__price2">
+            3 469 ₽
+        </div>
+    </div>
+
+    <button class="product-card__btn m-btn m-btn-primary">
+        <svg width="20" height="20" class="sprite">
+            <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+        <span>Купить</span>
+    </button>
+</div>
+
+                    </div>
+
+                    <button class="catalog__more m-btn m-btn-primary-outline">
+                        <span>Показать еще</span>
+                        <svg width="20" height="20" class="sprite">
+                            <use xlink:href="img/sprite.svg#more"></use>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer _animate opacity-only">
+            <div class="container">
+    <div class="footer__inner">
+        <a href="" class="footer__logo logo">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <nav class="footer-nav">
+            <a href="" class="footer-nav__link">Условия обмена и возврата</a>
+            <a href="" class="footer-nav__link">Политика конфиденциальности</a>
+            <a href="" class="footer-nav__link">Пользовательское соглашение</a>
+        </nav>
+        <div class="footer__socials">
+            <a href="" class="footer__social">
+                <svg width="26" height="26" class="sprite sprite-black">
+                    <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+            </a>
+            <a href="" class="footer__social">
+                <svg width="26" height="26" class="sprite sprite-black">
+                    <use xlink:href="img/sprite.svg#telegram"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="footer__c">
+        © XGift 2023 Все права защищены
+    </div>
+</div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
