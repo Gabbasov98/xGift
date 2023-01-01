@@ -18,11 +18,12 @@
         font-size: 30px;
         text-transform: capitalize;
     }
-    
+
     .wrapper button {
         margin-bottom: 25px;
         width: 300px;
         height: 45px;
+        max-width: 100%;
     }
 </style>
 
@@ -32,31 +33,78 @@
         <a href="index.html" style="display: block; margin-bottom: 20px;">
             Главная
         </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Подарочная карта iTunes на 500 рублей
+        </a>
+        <a href="order.html" style="display: block; margin-bottom: 20px;">
+            Оформление заказа
+        </a>
+        <a href="profile.html" style="display: block; margin-bottom: 20px;">
+            Мой профиль
+        </a>
+        <a href="orders-history.html" style="display: block; margin-bottom: 20px;">
+            Мои заказы
+        </a>
+        <a href="promo.html" style="display: block; margin-bottom: 20px;">
+            Мои промокоды
+        </a>
+        <a href="reviews.html" style="display: block; margin-bottom: 20px;">
+            Отзывы
+        </a>
+        <a href="faq.html" style="display: block; margin-bottom: 20px;">
+            Вопросы и ответы
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контактная информация
+        </a>
 
 
 
 
-        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#quickOrder">
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-modal="addedToCart">
             Быстрый заказ
         </button>
 
     </div>
 
-    <div class="modal" id="quickOrder" aria-hidden="true">
-    <div class="modal-dialog">
-        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.55401 10.5L2 2.94599L2.94599 2L10.5 9.55401L18.054 2L19 2.94599L11.446 10.5L19 18.054L18.054 19L10.5 11.446L2.94599 19L2 18.054L9.55401 10.5Z" fill="#333333"/>
-            </svg>
-        </button>
+    <div class="modal" id="addedToCart">
+    <div class="modal__dialog">
 
+        <div class="modal__title display3">
+            Товар добавлен в корзину
+        </div>
+        <div class="modal__product">
+            <div class="modal__product-icon">
+                <svg class="sprite sprite-black">
+                    <use xlink:href="img/sprite.svg#brand"></use>
+                </svg>
+            </div>
+            <h3 class="modal__product-title body-text">
+                Подарочная карта iTunes на 500 рублей
+            </h3>
+            <div class="modal__product-price body-text">
+                799 ₽
+            </div>
+        </div>
 
+        <div class="modal__nav">
+            <button class="modal__btn m-btn m-btn-primary">
+                <svg width="20" height="20" class="sprite">
+                    <use xlink:href="img/sprite.svg#cart"></use>
+                </svg>
+                <span>Перейти к оформлению</span>
+            </button>
+            <button class="modal__btn m-btn m-btn-primary-outline">
+                Продолжить покупки
+            </button>
+        </div>
 
     </div>
 </div>
 
 
 <!-- <div class="modal-backdrop show"></div> -->
+
     <!--  -->
     <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
